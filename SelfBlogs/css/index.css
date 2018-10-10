@@ -1,0 +1,374 @@
+/*公共部分开始*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #0AB4F7;
+
+}
+
+.blue-border {
+    border-bottom: 2px solid #0AB4F7;
+}
+
+
+.current {
+    width: 12px!important;
+    height: 12px!important;
+    background-color: royalblue!important;
+}
+/*公共部分结束*/
+
+
+
+/*导航栏模块开始*/
+#selfblogs-header {
+    width: ;
+    height: 40px;
+    background-color: #000;
+    position: relative;
+}
+
+#selfblogs-header .banxin {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#selfblogs-header .banxin .logo {
+    width: 120px;
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 1000;
+    color: #fff;
+}
+
+#selfblogs-header .banxin .nav {
+    width: 780px;
+    height: 100%;
+    float: left;
+    margin-left: 26px;
+}
+
+#selfblogs-header .banxin .nav ul li {
+    float: left;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin-right: 30px;
+    line-height: 40px;
+}
+
+#selfblogs-header .banxin .nav ul li:hover {
+    border-bottom: 2px solid #0AB4F7;
+}
+
+#selfblogs-header .banxin .sousuokuang {
+    float: right;
+    width: 240px;
+    height: 80%;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+#selfblogs-header .banxin .sousuokuang input {
+    width: 190px;
+    height: 32px;
+    padding-left: 10px;
+    border: 0;
+    outline: none;
+}
+/*导航栏模块结束*/
+
+
+
+/*轮播图模块开始*/
+#selfblogs-lunbotu {
+    width: 1200px;
+    height: 400px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+#lunboimgs {
+
+}
+
+#lunbolis {
+    position: absolute;
+    bottom: 40px;
+    left: 500px;
+}
+
+#lunbolis li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    float: left;
+    margin-right: 15px;
+}
+
+
+/*轮播图模块结束*/
+
+
+
+/*博主精选开始*/
+#selfblogs-blogsjingxuan {
+    width: 1200px;
+    height: 342px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bzjx1, .bzjx2, .bzjx3, .bzjx5, .bzjx6, .bzjx7  {
+    /*background-color: red;*/
+    width: 250px;
+    height: 140px;
+    float: left;
+    margin-right: 66px;
+    margin-bottom: 20px;
+}
+
+.bzjx4, .bzjx8 {
+    background-color: red;
+    width: 250px;
+    height: 140px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#selfblogs-blogsjingxuan h2 {
+    color: #0AB4F7;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+#selfblogs-blogsjingxuan h2 span {
+    border-bottom: 2px solid #0AB4F7;
+}
+/*博主精选结束*/
+#selfblogs-blogswenzhang {
+    width: 1200px;
+    height: 392px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#selfblogs-blogswenzhang div {
+
+}
+
+.bzwz1, .bzwz2, .bzwz3, .bzwz4, .bzwz6, .bzwz7, .bzwz8, .bzwz9 {
+    background-color: brown;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 50px;
+}
+
+.bzwz5, .bzwz10 {
+    background-color: brown;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.bzwz6, .bzwz7, .bzwz8, .bzwz9, .bzwz10 {
+    margin-top: 50px;
+}
+
+#selfblogs-blogswenzhang h2 {
+    color: #0AB4F7;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+#selfblogs-blogswenzhang h2 span {
+    border-bottom: 2px solid #0AB4F7;
+}
+/******************************************************************/
+
+#selfblogs-blogstuijian {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-top: 20px;
+    background-color: #389f37;
+}
+
+#selfblogs-blogstuijian h2 {
+    color: #fff;
+    margin: 0 0 10px 0;
+    text-align: center;
+
+}
+#selfblogs-blogstuijian h2 span {
+    border-bottom: 2px solid #fff;
+}
+.tab {
+    width: 1200px;
+    height: 60px;
+}
+
+.tab ul {
+    width: 560px;
+    height: 60px;
+    margin: 0 auto;
+    /*background-color: red;*/
+    border-bottom: 1px solid #000;
+}
+
+.tab ul li {
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 12px;
+    cursor: pointer;
+    /*border-radius: 30px;*/
+    /*border: 1px solid #389f37;*/
+    /*box-shadow: 0 0 50px rgba(255,255,255,.5);*/
+    /*background-color: #000;*/
+}
+
+.tab ul li:nth-child(5) {
+    margin-right: 0;
+}
+
+.lis {
+    border-radius: 30px;
+    border: 1px solid #389f37;
+    box-shadow: 0 0 50px rgba(255,255,255,.5);
+}
+
+
+
+/******************************/
+
+.neirong {
+    width: 1200px;
+    height: 406px;
+    /*border: 1px solid red;*/
+}
+
+.dom div {
+    width: 378px;
+    height: 182px;
+    margin: 10px;
+    float: left;
+    border-bottom: 1px dashed #000;
+    position: relative;
+}
+
+.dom div img {
+    padding: 22px 0 22px 0;
+}
+
+.dom div a {
+    position: absolute;
+    top: 20px;
+    left: 112px;
+}
+
+/*.shujituijian div a{*/
+    /*width: 200px;*/
+    /*height: 182px;*/
+    /*font-size: 14px;*/
+    /*color: #ccc;*/
+    /*position: absolute;*/
+    /*top: 15px;*/
+    /*left: 15px;*/
+/*}*/
+.dom div p {
+    width: 206px;
+    height: 182px;
+    font-size: 12px;
+    color: #ccc;
+    position: absolute;
+    top: 52px;
+    left: 112px;
+}
+.dom div p:nth-child(4) {
+    width: 240px;
+    height: 182px;
+    font-size: 12px;
+    color: #ccc;
+    position: absolute;
+    top: 100px;
+    left: 112px;
+}
+#wangzhantuijian {
+    border: 0;
+    width: 1200px;
+    margin-bottom: -96px;
+}
+
+#wangzhantuijian .wangzhan {
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    border: 0;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+    /*box-shadow: 0 0 10px rgba(255,255,255,0.5);*/
+}
+
+
+#wangzhantuijian .wangzhan a img {
+    position: absolute;
+    top: -26px;
+    left: -94px;
+}
+#wangzhantuijian .wangzhan a span {
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: -6px;
+    left: -64px;
+    color: #fff;
+}
+
+#wangzhantuijian .wangzhan:hover {
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+
+
+#selfblogs-footer {
+    width: ;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #000;
+    margin-top: 20px;
+}
+#selfblogs-footer h1 {
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 120px;
+}
